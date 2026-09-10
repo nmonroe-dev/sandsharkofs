@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sand Shark Oilfield Services — sand coordination and field logistics for frac operations.">
+  <title>Sand Shark Oilfield Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-progress"><span id="page-progress-bar"></span></div>
+
+  <header class="site-header" id="top">
+    <a class="logo" href="#top" aria-label="Sand Shark home">SAND<span>SHARK</span></a>
+    <nav class="navigation" aria-label="Primary navigation">
+      <a href="operations.html">Operations</a>
+      <a href="services.html">Services</a>
+      <a href="safety.html">Safety</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button
+      class="mobile-nav-toggle"
+      type="button"
+      aria-label="Open navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <a class="nav-button" href="contact.html">Start a conversation <span>↗</span></a>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-background"></div>
+      <div class="hero-grid"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">OILFIELD SERVICES / SAND COORDINATION</p>
+        <h1>THE SAND<br><span>HAS TO MOVE.</span></h1>
+        <p class="hero-description">
+          Sand Shark provides field coordination and logistics support for frac sand operations — connecting
+          material movement, trucking, staging, site activity, communication, and operational demands into one organized field process.
+        </p>
+
+        <div class="hero-actions">
+          <a class="primary-button" href="operations.html">Explore operations <span>↘</span></a>
+          <a class="secondary-button" href="contact.html">Talk to Sand Shark</a>
+        </div>
+      </div>
+
+      <!-- Repeating truck animation: independent of page scroll -->
+      <div class="hero-haul" aria-hidden="true">
+        <div class="haul-dust dust-one"></div>
+        <div class="haul-dust dust-two"></div>
+        <div class="haul-truck">
+          <div class="haul-cab">
+            <div class="haul-window"></div>
+            <div class="haul-light"></div>
+          </div>
+          <div class="haul-bed"><div class="haul-sand"></div></div>
+          <div class="haul-wheel hw1"></div>
+          <div class="haul-wheel hw2"></div>
+          <div class="haul-wheel hw3"></div>
+        </div>
+        <div class="haul-road"></div>
+      </div>
+
+      <div class="hero-status">
+        <span><i></i> FIELD OPERATIONS</span>
+        <span>24 / 7 COMMUNICATION</span>
+        <span>NORTH AMERICA</span>
+      </div>
+
+      <div class="hero-coordinate">SAND SHARK / FIELD 001</div>
+      <a class="hero-scroll" href="#operations">SCROLL TO EXPLORE <b>↓</b></a>
+    </section>
+
+    <!-- POSITIONING -->
+    <section class="positioning" id="operations">
+      <div class="section-marker">01 / OPERATIONS</div>
+      <div class="positioning-inner">
+        <div>
+          <p class="eyebrow dark">WHAT WE DO</p>
+          <h2>Coordination<br>that keeps<br><span>the system moving.</span></h2>
+        </div>
+        <div class="positioning-copy">
+          <p class="lead">
+            A frac operation is more than a truck arriving at a location. It is a moving system of
+            people, schedules, equipment, material, communication, and site requirements.
+          </p>
+          <p>
+            Sand Shark provides coordination support around that system. The focus is keeping the
+            sand movement organized, maintaining communication between the people involved, and
+            helping field activity stay aligned with the operation as conditions change.
+          </p>
+          <div class="mini-facts">
+            <div><strong>01</strong><span>Truck flow & staging</span></div>
+            <div><strong>02</strong><span>Field communication</span></div>
+            <div><strong>03</strong><span>Sand movement support</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MATERIAL FLOW / SCROLL ANIMATION -->
+    <section class="silo-scroll-section" id="material-flow">
+      <div class="section-marker light">02 / MATERIAL FLOW</div>
+
+      <div class="silo-sticky" aria-hidden="true">
+        <div class="silo-readout">
+          <span>SAND LEVEL</span>
+          <strong id="silo-percent">100%</strong>
+        </div>
+        <div class="silo-machine">
+          <div class="silo-cap"><div class="cap-port"></div></div>
+          <div class="silo-body">
+            <div class="silo-sand" id="silo-sand"><div class="sand-surface"></div></div>
+            <span class="silo-ring r1"></span><span class="silo-ring r2"></span><span class="silo-ring r3"></span>
+            <span class="silo-highlight"></span>
+          </div>
+          <div class="silo-funnel"></div>
+          <div class="silo-legs"><i></i><i></i><i></i></div>
+        </div>
+        <div class="silo-status"><i></i> PAGE / MATERIAL</div>
+      </div>
+
+      <div class="material-flow-shell">
+        <div class="material-copy-column">
+          <div class="silo-scroll-copy">
+            <p class="eyebrow">FOLLOW THE MATERIAL</p>
+            <h2>Every load has<br>a place in<br><span>the sequence.</span></h2>
+            <p>
+              Sand does not simply arrive at a frac site. It moves through a controlled sequence of
+              planning, dispatch, staging, delivery and field execution. Scroll through the sequence
+              to watch material build at the operation.
+            </p>
+          </div>
+
+          <div class="flow-stage-list" aria-label="Material flow sequence">
+            <article class="flow-stage active" data-flow-stage="0">
+              <div class="flow-stage-index"><span>01</span><i></i></div>
+              <div>
+                <p class="flow-kicker">BEFORE THE FIRST LOAD</p>
+                <h3>PLAN THE MOVEMENT.</h3>
+                <p>Align the jobsite, schedule, sand requirements, carrier plan, staging space and operating constraints before trucks begin moving toward location.</p>
+              </div>
+            </article>
+
+            <article class="flow-stage" data-flow-stage="1">
+              <div class="flow-stage-index"><span>02</span><i></i></div>
+              <div>
+                <p class="flow-kicker">FROM SOURCE TO LOCATION</p>
+                <h3>DISPATCH WITH PURPOSE.</h3>
+                <p>Keep the delivery sequence tied to actual field demand so incoming trucks support the job instead of creating congestion, gaps or unnecessary wait time.</p>
+              </div>
+            </article>
+
+            <article class="flow-stage" data-flow-stage="2">
+              <div class="flow-stage-index"><span>03</span><i></i></div>
+              <div>
+                <p class="flow-kicker">CONTROL THE QUEUE</p>
+                <h3>STAGE THE FLOW.</h3>
+                <p>Organize truck arrivals, lease-road movement and staging activity so the next load is ready without overwhelming the active pad.</p>
+              </div>
+            </article>
+
+            <article class="flow-stage" data-flow-stage="3">
+              <div class="flow-stage-index"><span>04</span><i></i></div>
+              <div>
+                <p class="flow-kicker">AT THE EQUIPMENT</p>
+                <h3>DELIVER TO THE SYSTEM.</h3>
+                <p>Coordinate material into the site configuration in use — including silos, boxes, pneumatic systems, hopper-bottom or belly-dump workflows and other sand-handling setups.</p>
+              </div>
+            </article>
+
+            <article class="flow-stage" data-flow-stage="4">
+              <div class="flow-stage-index"><span>05</span><i></i></div>
+              <div>
+                <p class="flow-kicker">STAGE AFTER STAGE</p>
+                <h3>KEEP THE OPERATION FED.</h3>
+                <p>Maintain communication and adjust the sequence as conditions change so material availability, truck flow and field execution stay connected through the job.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="material-visual" id="material-visual" aria-hidden="true">
+          <div class="material-hud top-left"><span>LIVE MATERIAL MODEL</span><strong id="pile-percent">0%</strong></div>
+          <div class="material-hud top-right"><span>FLOW STATUS</span><strong id="flow-status">PLANNING</strong></div>
+
+          <div class="drop-rig">
+            <div class="drop-rig-arm"></div>
+            <div class="drop-chute">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+
+          <div class="falling-sand" id="falling-sand">
+            <i style="--x:-44px;--d:0s;--s:4px"></i>
+            <i style="--x:-31px;--d:.16s;--s:3px"></i>
+            <i style="--x:-18px;--d:.31s;--s:5px"></i>
+            <i style="--x:-6px;--d:.08s;--s:3px"></i>
+            <i style="--x:8px;--d:.24s;--s:4px"></i>
+            <i style="--x:22px;--d:.41s;--s:3px"></i>
+            <i style="--x:35px;--d:.12s;--s:5px"></i>
+            <i style="--x:47px;--d:.35s;--s:3px"></i>
+            <i style="--x:-25px;--d:.48s;--s:2px"></i>
+            <i style="--x:16px;--d:.53s;--s:2px"></i>
+          </div>
+
+          <div class="sand-pile-zone">
+            <div class="sand-pile-shadow"></div>
+            <div class="sand-pile" id="sand-pile">
+              <div class="pile-texture"></div>
+              <span class="pile-ridge ridge-1"></span>
+              <span class="pile-ridge ridge-2"></span>
+              <span class="pile-ridge ridge-3"></span>
+            </div>
+            <div class="pile-ground-line"></div>
+          </div>
+
+          <div class="material-scale">
+            <span>100</span><i></i><span>75</span><i></i><span>50</span><i></i><span>25</span><i></i><span>0</span>
+          </div>
+          <div class="material-caption">SCROLL / MATERIAL ACCUMULATION MODEL</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES OVERVIEW -->
+    <section class="services" id="services">
+      <div class="section-marker">03 / CAPABILITIES</div>
+      <div class="services-heading">
+        <div>
+          <p class="eyebrow dark">WHAT SAND SHARK DELIVERS</p>
+          <h2>One operation.<br>Multiple <span>moving parts.</span></h2>
+        </div>
+        <p>
+          From wet and dry sand to belly dumps, pneumatic equipment, boxes, silos, staging and last-mile coordination, Sand Shark is built around the field logistics that keep material moving and crews connected.
+        </p>
+      </div>
+
+      <div class="service-grid">
+        <button class="service-card" data-modal="coordination">
+          <span class="card-number">01</span><span class="card-icon">↗</span>
+          <h3>Frac Sand Coordination</h3>
+          <p>Coordinate the movement of material, trucks, schedules and site requirements across active operations.</p>
+          <span class="learn">VIEW CAPABILITY</span>
+        </button>
+        <button class="service-card" data-modal="trucks">
+          <span class="card-number">02</span><span class="card-icon">↗</span>
+          <h3>Truck & Carrier Flow</h3>
+          <p>Support carrier communication, arrivals, staging, loading and unloading flow, and changing field priorities.</p>
+          <span class="learn">VIEW CAPABILITY</span>
+        </button>
+        <button class="service-card" data-modal="site">
+          <span class="card-number">03</span><span class="card-icon">↗</span>
+          <h3>Site Logistics</h3>
+          <p>Keep traffic, staging areas, material movement and on-site activity organized around the active job.</p>
+          <span class="learn">VIEW CAPABILITY</span>
+        </button>
+        <button class="service-card" data-modal="equipment">
+          <span class="card-number">04</span><span class="card-icon">↗</span>
+          <h3>Sand Systems & Equipment</h3>
+          <p>Coordinate around boxes, silos, belts, pneumatic systems, forklifts and other equipment supporting sand handling.</p>
+          <span class="learn">VIEW CAPABILITY</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- FIELD FEATURE -->
+    <section class="field-feature">
+      <div class="feature-photo home-field-photo">
+
+<div class="home-photo-wrap">
+
+<img
+src="assets/images/IMG_1972.jpeg"
+alt="Sand Shark frac sand logistics and field operations"
+class="home-field-image"
+>
+
+<div class="home-photo-overlay"></div>
+
+<div class="home-photo-label">
+<span>FIELD OPERATIONS</span>
+<strong>THE OPERATION IN MOTION.</strong>
+</div>
+
+<div class="home-photo-corner">
+SAND SHARK / 003
+</div>
+
+</div>
+
+</div>
+
+
+<!-- EVERYTHING FROM HERE DOWN STAYS -->
+<div class="feature-copy">
+
+<p class="eyebrow">
+FIELD EXECUTION
+</p>
+
+<h2>
+Built around<br>
+the way the<br>
+<span>field moves.</span>
+</h2>
+
+<!-- keep all your existing text here -->
+
+</div>
+
+</section>
+      <div class="feature-copy">
+        <p class="eyebrow">BUILT FOR FIELD REALITY</p>
+        <h2>More than<br>moving <span>sand.</span></h2>
+        <p class="lead">
+          Every delivery is part of a larger sequence. Trucks have to arrive in the right order. Material has to reach the right point. Site traffic has to stay controlled. Information has to move before the operation does.
+        </p>
+        <p>
+          Sand Shark brings those moving pieces together through practical field coordination, clear communication and logistics support designed around active frac operations.
+        </p>
+        <div class="feature-list"><span>WET SAND</span><span>DRY SAND</span><span>BELLY DUMPS</span><span>PNEUMATICS</span><span>BOXES</span><span>SILOS</span><span>STAGING</span></div>
+      </div>
+    </section>
+
+    <!-- OPERATING STANDARD -->
+    <section class="safety" id="safety">
+      <div class="section-marker">04 / OPERATING STANDARD</div>
+      <div class="safety-top">
+        <div>
+          <p class="eyebrow dark">READY FOR THE FIELD</p>
+          <h2>Prepared for<br><span>the operation.</span></h2>
+        </div>
+        <p>
+          Sand Shark approaches field work with a focus on safety awareness, qualified personnel, site-specific requirements, communication and disciplined execution. The details of our operating standards and personnel qualifications are available on the Safety page.
+        </p>
+      </div>
+      <div class="qualification-strip">
+        <div><strong>SAFETY</strong><span>Built into field execution</span></div>
+        <div><strong>READINESS</strong><span>Personnel prepared for active sites</span></div>
+        <div><strong>COMMUNICATION</strong><span>Connected from dispatch to pad</span></div>
+        <div><strong>DISCIPLINE</strong><span>Consistent operating standards</span></div>
+      </div>
+    </section>
+
+    <!-- COVERAGE -->
+    <section class="coverage">
+      <div class="coverage-bg"></div>
+      <div class="coverage-content">
+        <p class="eyebrow">SERVICE REACH</p>
+        <h2>Built around<br>where the<br><span>work happens.</span></h2>
+        <p>
+          Sand Shark is positioned to support frac-sand and field logistics operations across North America, with communication and coordination structured around the realities of active jobsites and changing schedules.
+        </p>
+        <div class="coverage-tags"><span>WET & DRY SAND</span><span>TRUCK & CARRIER FLOW</span><span>FIELD LOGISTICS</span><span>NORTH AMERICA</span></div>
+      </div>
+    </section>
+
+    <section class="page-cta">
+      <h2>When the operation<br>moves, <span>we move with it.</span></h2>
+      <a href="contact.html">Talk with Sand Shark ↗</a>
+    </section>
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal" id="info-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <p class="eyebrow dark" id="modal-kicker">FIELD CAPABILITY</p>
+      <h2 id="modal-title">Service</h2>
+      <p id="modal-body"></p>
+      <div class="modal-detail-grid">
+        <div><span>FOCUS</span><strong id="modal-focus">—</strong></div>
+        <div><span>ENVIRONMENT</span><strong>WELLSITE / FIELD</strong></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-logo">SAND<span>SHARK</span></div>
+    <div>Oilfield Services / Field Logistics</div>
+    <div>© 2026 Sand Shark Oilfield Services LLC</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
